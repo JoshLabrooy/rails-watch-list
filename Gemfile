@@ -16,6 +16,8 @@ gem "bootstrap", "~> 5.2"
 
 gem "dotenv-rails"
 
+gem "cloudinary"
+
 gem "autoprefixer-rails"
 
 gem "font-awesome-sass", "~> 6.1"
