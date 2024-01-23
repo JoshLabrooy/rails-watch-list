@@ -1,0 +1,7 @@
+<tr>
+  <td><%= bookmark.movie.title %></td>
+  <td><%= bookmark.comment %></td>
+  <td>
+    <%= link_to 'Delete', [@list, bookmark], method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger btn-sm' %>
+  </td>
+</tr>

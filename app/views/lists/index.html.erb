@@ -1,0 +1,19 @@
+<h1>All Lists</h1>
+
+<%= link_to 'New List', new_list_path, class: 'btn btn-primary' %>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @lists.each do |list| %>
+      <tr>
+        <td><%= link_to list.name, list %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
