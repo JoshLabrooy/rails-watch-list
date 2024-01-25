@@ -2,6 +2,8 @@
 
 <%= link_to 'New List', new_list_path, class: 'btn btn-primary' %>
 
+<%= cl_image_tag @article.photo.key, height: 300, width: 400, crop: :fill %>
+
 <table>
   <thead>
     <tr>
